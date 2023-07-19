@@ -1,0 +1,52 @@
+#container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* header */
+nav{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(49, 103, 150);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+nav button{
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: white;
+    background-color:  rgb(0, 0, 0);
+}
+
+/* hero */
+
+#hero img{
+    width: 100%;
+}
+
+/* services */
+#services{
+    display: flex;
+    margin: 50px 0;
+}
+
+.service{
+    text-align: center;
+}
+
+.service i{
+    font-size: 32px;
+}
+
+.service h4{
+    font-size: 20px;
+    font-weight: bold;
+}
